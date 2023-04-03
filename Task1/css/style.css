@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-ff7012{
+    background-color: #ff7012!important;
+}
+.color-ff7012{
+    color: #ff7012;
+}
+#clockicon1,
+#truckicon1,
+#walleticon1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
