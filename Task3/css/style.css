@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    background-image: url('../assets/slide1.jpg');
+}
+.bg2{
+    background-image: url('../assets/fitness1.jpg');
+}
+.bg3{
+    background-image: url('../assets/fitness4.jpg');
+}
+.bg-color-222222{
+    background-color: #222222;
+}
+.bg-color-262626{
+    background-color: #262626;
+}
+.footer-text:hover{
+    color: #b7c2f5!important;
+    cursor: pointer;
+}
+.footer-Image{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.footer-Image1{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+.number{
+    color: #f36347;
+    font-weight: 700;
+    font-size: 48px;
+}
+#book,
+#video,
+#heart,
+#briefcase{
+    font-size: 35px;
+    color: #8d8d8d;
+}
+#mobile,
+#shuffle,
+#timer{
+    font-size: 30px;
+    color: #505050;
+}
+#location2,
+#mail2,
+#phone2{
+    font-size: 30px;
+    color: #8d8d8d;
+}
+#quote1,
+#quote2,
+#quote3{
+    font-size: 25px;
+    color: #8d8d8d;
+}

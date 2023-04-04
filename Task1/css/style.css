@@ -8,9 +8,27 @@
 .color-ff7012{
     color: #ff7012;
 }
+.width-55{
+    width: 55px;
+}
 #clockicon1,
 #truckicon1,
 #walleticon1{
     font-size: 40px;
     margin-bottom: 40px;
+}
+#visaicon,
+#mastericon,
+#amexicon,
+#paypalicon,
+#jcbicon{
+    font-size: 30px;
+}
+#visaicon:hover,
+#mastericon:hover,
+#amexicon:hover,
+#paypalicon:hover,
+#jcbicon:hover{
+    color: #686868;
+    cursor: pointer;
 }
