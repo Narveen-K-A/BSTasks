@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    background-image: url('../assets/background.jpg');
+}
+.bg2{
+    background-image: url('../assets/background2.jpg');
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.bg-color-353535{
+    background-color: #353535;
+}
+.bg-color-242424{
+    background-color: #242424;
+}
+.bg-color-1c1c1c{
+    background-color: #1c1c1c;
+}
+.color-8d8d8d{
+    color: #8d8d8d;
+}
+.color-ffffff{
+    color: #ffffff;
+}
+.color-cccccc{
+    color: #cccccc;
+}
+.color-bebebe{
+    color: #bebebe;
+}
+.color-f3ba40{
+    color: #f3ba40;
+}
+.button1{
+    color: #353535;
+    border-radius: 10px;
+    line-height: 40px;
+    padding: 10px 35px;
+    font-weight: 700;
+    background-color: #f3ba40;
+    outline: none;
+    border: none;
+}
+.button1:hover{
+    background-color: #ffd83c;
+}
+.button2{
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #f2f2f200;
+    color: #ffffff;
+    border: 2px solid transparent;
+    border: 2px solid #8a8a8b;
+    box-shadow: 0 6px 40px #00000040;
+    padding: 16px 36px;
+    text-align: center;
+    font-weight: 700;
+}
+.button2:hover{
+    color: #f3ba40;
+    border: 2px solid #f3ba40;
+}
+#pdf{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.videoimg{
+    width: 615px;
+}
+.shuffle:hover{
+    color: #e38f07!important;
+    cursor: pointer;
+}
+#facebook,
+#twitter,
+#instagram{
+    color: #bebebe;
+    font-size: 20px;
+    cursor: pointer;
+}
+#map,
+#phone,
+#mail,
+#clock{
+    color: #bebebe;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footer-font:hover{
+    color: #f3ba40!important;
+    cursor: pointer;
+}
+.input-type{
+    border: none;
+    outline: none;
+    padding: 3px 30px;
+    width: 300px;
+    border: 1px solid #e3e3e3;
+    color: #8d8d8d;
+    margin-right: 15px;
+    display: block;
+    border-radius: 10px;
+    line-height: 48px;
+}
