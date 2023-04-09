@@ -2,20 +2,132 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Montserrat';
+}
 .bg-ff7012{
     background-color: #ff7012!important;
+}
+.bg-f6f6f6{
+    background-color: #f6f6f6;
 }
 .color-ff7012{
     color: #ff7012;
 }
+.color-686868{
+    color: #686868;
+}
+.color-7d7d7d{
+    color: #7d7d7d;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.line-height-30{
+    line-height: 30px;
+}
 .width-55{
     width: 55px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.footer-font{
+    font-size: 13px;
+    font-weight: 500;
+    color: #686868;
+    line-height: 20px;
+}
+.footer-font:hover{
+    color: #ff7012;
+    cursor: pointer;
+}
+.footer-font1{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-font2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-font2:hover{
+    color: #686868;
+    cursor: pointer;
+}
+.footer-font3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.border-top-1{
+    border-top: 1px solid #ebebeb;
+}
+.purchase{
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 50px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #171717;
+    color: #ffffff;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+.purchase:hover{
+    background-color: #ff7012;
+}
+.border-right-1{
+    border-right: 1px solid #ebebeb;
+}
+.card-font1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.cart-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #f6f6f6;
+}
+.cart-icon:hover{
+    background-color: #ff7012;
+}
+input{
+    font-size: 13px;
+    color: #7d7d7d;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+::placeholder {
+    font-style:italic;
+}
+#lock{
+    font-size: 10px;
 }
 #clockicon1,
 #truckicon1,
 #walleticon1{
     font-size: 40px;
     margin-bottom: 40px;
+    color: #686868;
 }
 #visaicon,
 #mastericon,
@@ -31,4 +143,15 @@
 #jcbicon:hover{
     color: #686868;
     cursor: pointer;
+}
+#cart1,
+#cart2,
+#cart3,
+#cart4,
+#cart5,
+#cart6,
+#cart7,
+#cart8{
+    font-size: 12px;
+    color: #8d8d8d;
 }
