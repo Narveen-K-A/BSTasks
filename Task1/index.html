@@ -12,7 +12,7 @@
         <script defer src="assets/icons.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="navbar">
             <div class="container-fluid">
                 <div>
                     <a class="navbar-brand" href="#">
@@ -74,18 +74,16 @@
         </nav>
         <div class="container-fluid p-5">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <button type="button" class="btn btn-dark btn-xs rounded-pill w-auto"><b>New Collection</b></button>
-                    </div>
-                    <div class="row">
-                        <h1 class="text-dark">Fill your home with uniqueness</h1>
-                    </div>
-                    <div class="row">
-                        <h3 class="text-secondary">Huge variety with modern glamour!</h3>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center p-5 h-100">
+                        <div class="d-flex flex-column p-5">
+                            <button type="button" class="btn btn-dark btn-xs rounded-pill col-md-12 col-lg-6 my-2"><b>New Collection</b></button>
+                            <h1 class="text-dark my-2">Fill your home with uniqueness</h1>
+                            <h3 class="text-secondary my-2">Huge variety with modern glamour!</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="row">
                         <img src="assets/furniture1.jpg" alt="Furniture1">
                     </div>
@@ -214,16 +212,16 @@
         <div class="container-fluid bg-f6f6f6">
             <div class="row mx-5">
                 <div class="col-lg-6 px-5">
-                    <div class="row">
-                        <img src="assets/furniture5-1.png" alt="Furniture1" class="w-50">
+                    <div class="row width-300">
+                        <img src="assets/furniture5-1.png" alt="Furniture1">
                     </div>
                 </div>
-                <div class="col-lg-6 px-5">
+                <div class="col-lg-6 padding-200-15">
                     <div>
-                        <span class="text-dark">Our special offer</span>
+                        <span class="text-dark font-size-20 font-weight-400">Our special offer</span>
                     </div>
                     <div>
-                        <h1 class="text-dark">Featured products with amazing color variety for your home</h1>
+                        <h1 class="text-dark font-size-35 font-weight-600">Featured products with amazing color variety for your home</h1>
                     </div>
                     <div>
                         <button type="button" class="purchase">
@@ -235,22 +233,22 @@
         </div>
         <div class="container-fluid py-5 my-5">
             <div class="row mx-5">
-                <div class="col-lg-4 text-center px-5 border-right-1">
-                    <div class="py-3">
+                <div class="col-lg-4 text-center px-5">
+                    <div class="py-3 px-3">
                         <i class='far fa-clock' id="clockicon1"></i>
                         <h5 class="pb-3">24 h Shipping</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center px-5 border-right-1">
-                    <div class="py-3">
+                <div class="col-lg-4 text-center px-5 border-right-left-1">
+                    <div class="py-3 px-3">
                         <i class='fas fa-truck' id="truckicon1"></i>
                         <h5 class="pb-3">Free returns</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center px-5">
-                    <div class="py-3">
+                    <div class="py-3 px-3">
                         <i class='fas fa-wallet' id="walleticon1"></i>
                         <h5 class="pb-3">100% money back guarantee</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
@@ -403,7 +401,7 @@
                 <p class="color-7d7d7d font-size-15 font-weight-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
             </div>
             <div class="d-flex justify-content-center p-5 mb-5">
-                <div>
+                <div class="col-lg-5">
                     <input type="text" placeholder="Please enter your email here..." class="col-lg-12">
                 </div>
                 <div>
