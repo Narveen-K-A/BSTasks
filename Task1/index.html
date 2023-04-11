@@ -10,34 +10,52 @@
         <link rel="stylesheet" href="assets/bootstrap.min.css">
         <script defer src="assets/bootstrap.bundle.min.js"></script>
         <script defer src="assets/icons.js"></script>
+        <script defer src="js/script.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="navbar">
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top p-5" id="navbar"><!-- fixed-top -->
             <div class="container-fluid">
                 <div>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand p-5" href="#" id="logo">
                         <img src="assets/logo.png" alt="Logo">
                     </a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNav"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                <div>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="nav" aria-label="Expand navigation">
+                        <div class="navbar-toggler-icon"></div>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav" id="navigation">
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link active show-hover" href="#">Home</a>
+                            </b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link show-hover" href="#">Shop</a>
+                            </b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Decor</a>
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link show-hover" href="#">Decor</a>
+                            </b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Plant</a>
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link show-hover" href="#">Plant</a>
+                            </b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Light</a>
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link show-hover" href="#">Light</a>
+                            </b>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Chair</a>
+                        <li class="nav-item pe-3">
+                            <b>
+                                <a class="nav-link show-hover" href="#">Chair</a>
+                            </b>
                         </li>
                     </ul>
                 </div>
@@ -45,41 +63,46 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class='fab fa-facebook-f' id="facebookicon1"></i>
+                                <i class='fab fa-facebook-f show-hover' id="facebookicon1"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class='fab fa-twitter' id="twittericon1"></i>
+                                <i class='fab fa-twitter show-hover' id="twittericon1"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class='fab fa-instagram' id="instagramicon1"></i>
+                                <i class='fab fa-instagram show-hover' id="instagramicon1"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class='fas fa-search' id="searchicon1"></i>
+                                <i class='fas fa-search show-hover' id="searchicon1"></i>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <i class='fas fa-shopping-cart' id="carticon1"></i>
+                                <i class='fas fa-shopping-cart show-hover' id="carticon1"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container-fluid p-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex align-items-center p-5 h-100">
-                        <div class="d-flex flex-column p-5">
-                            <button type="button" class="btn btn-dark btn-xs rounded-pill col-md-12 col-lg-6 my-2"><b>New Collection</b></button>
-                            <h1 class="text-dark my-2">Fill your home with uniqueness</h1>
-                            <h3 class="text-secondary my-2">Huge variety with modern glamour!</h3>
+        <div class="container-fluid mt-5">
+            <div class="row mt-5 pt-5">
+                <div class="col-md-6 my-5">
+                    <div class="container m-5 p-5">
+                        <button type="button" class="new-collection bg-171717 font-weight-600 mt-5">
+                            New Collection
+                        </button>
+                        <h1 class="text-dark mt-5 large-font me-5">Fill your home with uniqueness</h1>
+                        <h3 class="text-secondary font-size-20 font-weight-600 my-5">Huge variety with modern glamour!</h3>
+                        <div class="text-dark mt-5 pt-5 cursor-pointer">
+                            <b class="show-hover">Explore
+                                <i class='fas fa-angle-down' id="arrowdown1"></i>
+                            </b>
                         </div>
                     </div>
                 </div>
@@ -90,78 +113,24 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid p-5">
-            <button class="btn btn-light text-dark">
-                <b>Explore
-                    <i class='fas fa-angle-down' id="arrowdown1"></i>
-                </b>
-            </button>
-        </div>
         <div class="container">
             <div class="row text-center">
                 <a href="#" class="text-decoration-none text-dark pb-5">
-                    <b>! Use discount code: FIRSTIME to get <span class="color-ff7012">10% off</span> your first order !</b>
+                    <b class="text-secondary">! Use discount code: FIRSTIME to get <span class="color-ff7012">10% off</span> your first order !</b>
                 </a>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 position-relative">
-                    <!-- <img src="assets/furniture2.jpg" alt="Furniture2">
-                    <div class="position-absolute top-50 start-50 translate-middle">
-                        <div class="text-center">
-                            <button type="button" class="btn btn-dark btn-xs rounded-pill w-auto">
-                                <b>New Collection</b>
+        <div class="container-fluid p-5">
+            <div class="row p-3">
+                <div class="col-lg-4">
+                    <div class="card text-center border-0">
+                        <img src="assets/furniture2.jpg" alt="Furniture2">
+                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                            <button type="button" class="new-collection bg-171717 font-weight-600 my-3">
+                                New Collection
                             </button>
-                        </div>
-                        <div>
-                            <h2>Lights & Decor</h2>
-                        </div>
-                        <div>
-                            <button type="button" class="btn bg-transparent text-dark">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
-                        </div>
-                    </div> -->
-                    <div class="card text-center align-items-center border-0">
-                        <img src="assets/furniture4.jpg" alt="Furniture4">
-                        <div class="card-img-overlay">
-                            <button type="button" class="btn btn-xs rounded-pill w-auto bg-ff7012 text-light">
-                                <b>Sale</b>
-                            </button>
-                            <h2 class="card-text">Living Room</h2>
-                            <button type="button" class="btn bg-transparent text-dark">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 position-relative">
-                    <!-- <img src="assets/furniture3.jpg" alt="Furniture3">
-                    <div class="position-absolute top-50 start-50 translate-middle">
-                        <div>
-                            <h2>Kitchen Cutlery</h2>
-                        </div>
-                        <div>
-                            <button type="button" class="btn bg-transparent text-dark">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
-                        </div>
-                    </div> -->
-                    <div class="card text-center align-items-center border-0">
-                        <img src="assets/furniture4.jpg" alt="Furniture4">
-                        <div class="card-img-overlay">
-                            <button type="button" class="btn btn-xs rounded-pill w-auto bg-ff7012 text-light">
-                                <b>Sale</b>
-                            </button>
-                            <h2 class="card-text">Living Room</h2>
-                            <button type="button" class="btn bg-transparent text-dark">
+                            <h2 class="card-text">Lights & Decor</h2>
+                            <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
                                 <b>Show More
                                     <i class='fas fa-angle-right' id="arrowright1"></i>
                                 </b>
@@ -170,14 +139,27 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card text-center align-items-center border-0">
+                    <div class="card text-center border-0">
+                        <img src="assets/furniture3.jpg" alt="Furniture3">
+                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                            <h2 class="card-text mt-4">Kitchen Cutlery</h2>
+                            <button type="button" class="btn bg-transparent text-dark pt-5 show-hover">
+                                <b>Show More
+                                    <i class='fas fa-angle-right' id="arrowright1"></i>
+                                </b>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center border-0">
                         <img src="assets/furniture4.jpg" alt="Furniture4">
-                        <div class="card-img-overlay">
-                            <button type="button" class="btn btn-xs rounded-pill w-auto bg-ff7012 text-light">
+                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                            <button type="button" class="new-collection bg-ff7012 font-weight-600 my-3">
                                 <b>Sale</b>
                             </button>
-                            <h2 class="card-text">Living Room</h2>
-                            <button type="button" class="btn bg-transparent text-dark">
+                            <h2 class="card-text mx-5">Living Room</h2>
+                            <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
                                 <b>Show More
                                     <i class='fas fa-angle-right' id="arrowright1"></i>
                                 </b>
@@ -188,7 +170,7 @@
             </div>
         </div>
         <div class="container p-5">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-md-6 col-lg-3 col-xl-2 p-4">
                     <img src="assets/mklt.png" alt="MKLT">
                 </div>
@@ -209,24 +191,26 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-f6f6f6">
+        <div class="container-fluid bg-f6f6f6 pt-5">
             <div class="row mx-5">
                 <div class="col-lg-6 px-5">
-                    <div class="row width-300">
+                    <div class="d-flex justify-content-center">
                         <img src="assets/furniture5-1.png" alt="Furniture1">
                     </div>
                 </div>
-                <div class="col-lg-6 padding-200-15">
-                    <div>
-                        <span class="text-dark font-size-20 font-weight-400">Our special offer</span>
-                    </div>
-                    <div>
-                        <h1 class="text-dark font-size-35 font-weight-600">Featured products with amazing color variety for your home</h1>
-                    </div>
-                    <div>
-                        <button type="button" class="purchase">
-                            Purchase
-                        </button>
+                <div class="col-lg-6">
+                    <div class="container pt-5 px-5">
+                        <div class="pt-5 px-5">
+                            <span class="text-dark font-size-20 font-weight-400">Our special offer</span>
+                        </div>
+                        <div class="pt-3 px-5">
+                            <h1 class="text-dark font-size-35 font-weight-600">Featured products with amazing color variety for your home</h1>
+                        </div>
+                        <div class="pt-5 px-5">
+                            <button type="button" class="purchase">
+                                Purchase
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

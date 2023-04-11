@@ -11,6 +11,9 @@ body{
 .bg-f6f6f6{
     background-color: #f6f6f6;
 }
+.bg-171717{
+    background-color: #171717;
+}
 .color-ff7012{
     color: #ff7012;
 }
@@ -115,8 +118,26 @@ body{
 .cart-icon:hover{
     background-color: #ff7012;
 }
-.width-300{
-    width: 300px;
+.new-collection{
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.large-font{
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 600;
+}
+.show-hover:hover{
+    color: #ff7012!important;
 }
 input{
     font-size: 13px;
