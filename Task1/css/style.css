@@ -220,6 +220,25 @@ input{
     .padding-media-1{
         padding: 20px 0px!important;
     }
+    .furniture5-media-width{
+        width: 600px;
+    }
+    .width25{
+        width: 25%;
+    }
+    .media-nav{
+        background-color: #242424;
+        border-bottom: 1px solid #686868;
+        padding: 20px;
+    }
+    .media-nav-font{
+        color: #8d8d8d!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+    }
+    .media-nav-active-font{
+        color: #ffffff!important;
+    }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px){
     .nav-hide{
@@ -227,6 +246,19 @@ input{
     }
     .font-media-1{
         font-size: 35px!important;
+    }
+    .media-nav{
+        background-color: #242424;
+        border-bottom: 1px solid #686868;
+        padding: 20px;
+    }
+    .media-nav-font{
+        color: #8d8d8d!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+    }
+    .media-nav-active-font{
+        color: #ffffff!important;
     }
 }
 @media screen and (max-width: 1440px) and (min-width: 1025px){

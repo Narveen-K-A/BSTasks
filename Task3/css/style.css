@@ -26,6 +26,27 @@
 .color-f36347{
     color: #f36347;
 }
+.color-505050{
+    color: #505050;
+}
+.color-8d8d8d{
+    color: #8d8d8d;
+}
+.color-e3e3e3{
+    color: #e3e3e3;
+}
+.color-ffffff{
+    color: #ffffff;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-20{
+    font-size: 20px;
+}
 .font-size-30{
     font-size: 30px;
 }
@@ -37,6 +58,9 @@
 }
 .font-weight-700{
     font-weight: 700;
+}
+.line-height-1{
+    line-height: 1.8;
 }
 .border-1{
     border: 1px solid #ffffff12;
@@ -52,15 +76,65 @@
     cursor: pointer;
 }
 .footer-Image1{
-    width: 70px;
-    height: 70px;
+    width: 76px;
+    height: 76px;
     cursor: pointer;
-    border-radius: 35px;
+    border-radius: 38px;
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer-font1{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.footer-font1:hover{
+    color: #505050;
+    cursor: pointer;
+}
+.footer-font2{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-font2:hover{
+    color: #f36347;
+    cursor: pointer;
 }
 .number{
     color: #f36347;
     font-weight: 700;
     font-size: 48px;
+}
+.border-2{
+    border-bottom: 1px solid #ffffff1a
+}
+.superscript{
+    padding: 2px 6px;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 20px;
+    top: 18px;
+    right: 18px;
+    font-size: 13px;
+    color: #fff!important;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,.2);
+    background-color: #f36347!important;
+}
+.superscript2{
+    padding: 2px 6px;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 20px;
+    top: 3px;
+    right: 13px;
+    font-size: 13px;
+    color: #fff!important;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,.2);
+    background-color: #f36347!important;
 }
 .button1{
     border: 2px solid #e4e4e4;
@@ -109,4 +183,23 @@
 #quote3{
     font-size: 25px;
     color: #8d8d8d;
+}
+#map1,
+#phone,
+#mail,
+#clock{
+    font-size: 20px;
+    color: #e3e3e3;
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px) and (min-width: 200px){
+    .footer-logo-padding{
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px){
+
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px){
+
 }
