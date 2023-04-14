@@ -8,25 +8,33 @@
         <link rel="icon" type="image/x-icon" href="assets/icon.png">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome.min.css">
         <script defer src="assets/bootstrap.bundle.min.js"></script>
         <script defer src="assets/icons.js"></script>
         <script defer src="js/script.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top p-5" id="navbar"><!-- fixed-top -->
+        <nav class="navbar navbar-expand-xl bg-light navbar-light fixed-top p-5" id="navbar"><!-- fixed-top -->
             <div class="container-fluid">
                 <div>
                     <a class="navbar-brand p-5" href="#" id="logo">
                         <img src="assets/logo.png" alt="Logo">
                     </a>
                 </div>
-                <div>
+                <div class="d-flex">
                     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="nav" aria-label="Expand navigation">
                         <div class="navbar-toggler-icon"></div>
                     </button>
+                    <div class="d-lg-block ps-3">
+                        <ul class="navbar-nav">
+                            <a class="nav-link cart-hide" href="#">
+                                <i class='fas fa-shopping-cart show-hover' id="carticon1"></i>
+                            </a>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav" id="navigation">
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav">
                         <li class="nav-item pe-3">
                             <b>
                                 <a class="nav-link active show-hover" href="#">Home</a>
@@ -90,14 +98,34 @@
                 </div>
             </div>
         </nav>
+        <div class="icon-bar">
+            <div class="iconbar-10">
+                <i class='fas fa-layer-group icons'></i>
+            </div>
+            <div class="iconbar-10">
+                <i class='fas fa-glasses icons'></i>
+            </div>
+            <div class="iconbar-10">
+                <i class='fas fa-shopping-bag icons'></i>
+            </div>
+            <div class="iconbar-10">
+                <i class='far fa-question-circle icons'></i>
+            </div>
+            <div class="iconbar-10">
+                <i class="fa fa-support icons"></i>
+            </div>
+            <div class="iconbar-10">
+                <i class="fa fa-envelope icons"></i>
+            </div>
+        </div>
         <div class="container-fluid mt-5">
             <div class="row mt-5 pt-5">
-                <div class="col-md-6 my-5">
+                <div class="col-lg-6 my-5">
                     <div class="container m-5 p-5">
                         <button type="button" class="new-collection bg-171717 font-weight-600 mt-5">
                             New Collection
                         </button>
-                        <h1 class="text-dark mt-5 large-font me-5">Fill your home with uniqueness</h1>
+                        <h1 class="text-dark mt-5 large-font me-5 font-media-1">Fill your home with uniqueness</h1>
                         <h3 class="text-secondary font-size-20 font-weight-600 my-5">Huge variety with modern glamour!</h3>
                         <div class="text-dark mt-5 pt-5 cursor-pointer">
                             <b class="show-hover">Explore
@@ -106,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="row">
                         <img src="assets/furniture1.jpg" alt="Furniture1">
                     </div>
@@ -115,55 +143,61 @@
         </div>
         <div class="container">
             <div class="row text-center">
-                <a href="#" class="text-decoration-none text-dark pb-5">
+                <a href="#" class="text-decoration-none text-dark pb-5 padding-media-1">
                     <b class="text-secondary">! Use discount code: FIRSTIME to get <span class="color-ff7012">10% off</span> your first order !</b>
                 </a>
             </div>
         </div>
         <div class="container-fluid p-5">
             <div class="row p-3">
-                <div class="col-lg-4">
-                    <div class="card text-center border-0">
-                        <img src="assets/furniture2.jpg" alt="Furniture2">
-                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
-                            <button type="button" class="new-collection bg-171717 font-weight-600 my-3">
-                                New Collection
-                            </button>
-                            <h2 class="card-text">Lights & Decor</h2>
-                            <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center border-0">
+                            <img src="assets/furniture2.jpg" alt="Furniture2">
+                            <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                                <button type="button" class="new-collection bg-171717 font-weight-600 my-3">
+                                    New Collection
+                                </button>
+                                <h2 class="card-text">Lights & Decor</h2>
+                                <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
+                                    <b>Show More
+                                        <i class='fas fa-angle-right' id="arrowright1"></i>
+                                    </b>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card text-center border-0">
-                        <img src="assets/furniture3.jpg" alt="Furniture3">
-                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
-                            <h2 class="card-text mt-4">Kitchen Cutlery</h2>
-                            <button type="button" class="btn bg-transparent text-dark pt-5 show-hover">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center border-0">
+                            <img src="assets/furniture3.jpg" alt="Furniture3">
+                            <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                                <h2 class="card-text mt-4">Kitchen Cutlery</h2>
+                                <button type="button" class="btn bg-transparent text-dark pt-5 show-hover">
+                                    <b>Show More
+                                        <i class='fas fa-angle-right' id="arrowright1"></i>
+                                    </b>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card text-center border-0">
-                        <img src="assets/furniture4.jpg" alt="Furniture4">
-                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
-                            <button type="button" class="new-collection bg-ff7012 font-weight-600 my-3">
-                                <b>Sale</b>
-                            </button>
-                            <h2 class="card-text mx-5">Living Room</h2>
-                            <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
-                                <b>Show More
-                                    <i class='fas fa-angle-right' id="arrowright1"></i>
-                                </b>
-                            </button>
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center border-0">
+                            <img src="assets/furniture4.jpg" alt="Furniture4">
+                            <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center m-5 p-5">
+                                <button type="button" class="new-collection bg-ff7012 font-weight-600 my-3">
+                                    <b>Sale</b>
+                                </button>
+                                <h2 class="card-text mx-5">Living Room</h2>
+                                <button type="button" class="btn bg-transparent text-dark my-4 show-hover">
+                                    <b>Show More
+                                        <i class='fas fa-angle-right' id="arrowright1"></i>
+                                    </b>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,22 +250,22 @@
             </div>
         </div>
         <div class="container-fluid py-5 my-5">
-            <div class="row mx-5">
-                <div class="col-lg-4 text-center px-5">
+            <div class="row d-flex justify-content-center mx-5">
+                <div class="col-md-8 col-lg-4 text-center px-5">
                     <div class="py-3 px-3">
                         <i class='far fa-clock' id="clockicon1"></i>
                         <h5 class="pb-3">24 h Shipping</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center px-5 border-right-left-1">
+                <div class="col-md-8 col-lg-4 text-center px-5 border-right-left-1">
                     <div class="py-3 px-3">
                         <i class='fas fa-truck' id="truckicon1"></i>
                         <h5 class="pb-3">Free returns</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo felis, consectetur id elit id.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 text-center px-5">
+                <div class="col-md-8 col-lg-4 text-center px-5">
                     <div class="py-3 px-3">
                         <i class='fas fa-wallet' id="walleticon1"></i>
                         <h5 class="pb-3">100% money back guarantee</h5>
@@ -245,7 +279,7 @@
             <img src="assets/furniture6.jpg" alt="Furniture6" class="w-100">
         </div>
         <div class="container my-5">
-            <div class="d-flex justify-content-between">
+            <div class="d-lg-flex justify-content-between">
                 <div>
                     <h3>Find the closest store to your location</h3>
                     <p class="cart-font1 color-686868 col-lg-10">Quisque ut aliquam nunc, at finibus ante. Sed dignissim, nulla a fermentum egestas, odio</p>
@@ -384,8 +418,8 @@
             <div>
                 <p class="color-7d7d7d font-size-15 font-weight-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris</p>
             </div>
-            <div class="d-flex justify-content-center p-5 mb-5">
-                <div class="col-lg-5">
+            <div class="d-lg-flex justify-content-center p-5 mb-5">
+                <div class="col-lg-8">
                     <input type="text" placeholder="Please enter your email here..." class="col-lg-12">
                 </div>
                 <div>
