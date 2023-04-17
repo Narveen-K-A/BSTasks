@@ -33,13 +33,16 @@
     color: #8d8d8d;
 }
 .color-e3e3e3{
-    color: #e3e3e3;
+    color: #e3e3e3!important;
 }
 .color-ffffff{
     color: #ffffff;
 }
+.font-size-12{
+    font-size: 12px;
+}
 .font-size-13{
-    font-size: 13px;
+    font-size: 13px!important;
 }
 .font-size-14{
     font-size: 14px;
@@ -66,7 +69,7 @@
     font-weight: 400;
 }
 .font-weight-700{
-    font-weight: 700;
+    font-weight: 700!important;
 }
 .line-height-1{
     line-height: 1.8;
@@ -126,6 +129,27 @@
 }
 .border-top1{
     box-shadow: 0 15px 25px -7px rgba(0,0,0,0.09), 0 -12px 10px -10px rgba(0,0,0,0.04)
+}
+.border-left-1{
+    border-left: 3px solid #f36347;
+}
+.nav-icons{
+    font-size: 15px;
+    color: #e3e3e3;
+}
+.pill-1{
+    color: #ffffff;
+    background-color: #f36347;
+    border: 1px solid #f36347;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+.pill-2{
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 1px solid #ffffff;
 }
 .superscript{
     padding: 2px 6px;
