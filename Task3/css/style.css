@@ -163,6 +163,7 @@
     border-radius: 30px;
     padding: 15px 25px;
     cursor: pointer;
+    font-size: 12px;
 }
 .pill-2{
     color: #ffffff;
@@ -171,6 +172,7 @@
     padding: 15px 25px;
     border: 1px solid #ffffff;
     cursor: pointer;
+    font-size: 12px;
 }
 .down-arrow{
     color: #e4e4e4;

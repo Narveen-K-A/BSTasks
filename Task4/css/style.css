@@ -47,6 +47,9 @@
 .color-f3ba40{
     color: #f3ba40;
 }
+.border-color{
+    color: #bebebe!important;
+}
 .button1{
     color: #353535;
     border-radius: 10px;
