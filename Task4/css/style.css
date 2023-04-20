@@ -20,6 +20,9 @@
 .font-weight-900{
     font-weight: 900;
 }
+.font-size-12{
+    font-size: 12px;
+}
 .font-size-13{
     font-size: 13px;
 }
@@ -108,6 +111,9 @@
 }
 .border-bottom-1{
     border-bottom: 1px solid #bebebe;
+}
+.border-bottom-2{
+    border-bottom: 1px solid #353535;
 }
 #pdf{
     font-size: 20px;
