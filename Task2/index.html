@@ -16,32 +16,9 @@
         </title>
     </head>
     <body>
-        <div class="pos-rel">
-            <div class="icon-bar d-sm-none d-md-block">
-                <div class="iconbar-10">
-                    <i class='fas fa-layer-group'></i>
-                </div>
-                <div class="iconbar-10">
-                    <i class='fas fa-glasses'></i>
-                </div>
-                <div class="iconbar-10">
-                    <i class='fas fa-shopping-bag'></i>
-                </div>
-                <div class="iconbar-10">
-                    <i class='far fa-question-circle'></i>
-                </div>
-                <div class="iconbar-10">
-                    <i class="fa fa-support"></i>
-                </div>
-                <div class="iconbar-10">
-                    <i class="fa fa-envelope"></i>
-                </div>
-            </div>
-            <button id="scrollToTopBtn" class="button-top" onclick="scrollToTop()">
-                <i class="material-icons" id="arrowup">keyboard_arrow_up</i>
-            </button>
-            <div class="bg1 padding75">
-                <div class="d-flex justify-content-between" id="header">
+        <div class="container-fluid p-0">
+            <div class="bg1">
+                <div class="d-flex justify-content-between p-5">
                     <div>
                         <img src="assets/logo.png" alt="Logo" class="logo">
                     </div>
@@ -72,12 +49,12 @@
                         </span>
                     </div>
                 </div>
-                <div id="animatezoom">
-                    <div class="margin-top-bottom">
-                        <h2 class="font-size-48 font-weight-700 line-height-48 color-363636 text-left font100">Proffesional</h2>
-                        <h2 class="font-size-48 font-weight-700 line-height-48 color-363636 text-left font100">Family Health Care</h2>
+                <div class="p-5 m-2">
+                    <div class="my-5">
+                        <h2 class="font-size-48 font-weight-700 line-height-48 color-363636">Proffesional</h2>
+                        <h2 class="font-size-48 font-weight-700 line-height-48 color-363636">Family Health Care</h2>
                     </div>
-                    <div class="margin-top-bottom-small">
+                    <div class="my-3">
                         <h2 class="font-size-12 font-weight-400 color-363636">CREATE YOUR MEDICAL WEBSITE USING JEVELIN</h2>
                     </div>
                     <div>
@@ -85,67 +62,79 @@
                     </div>
                 </div>
             </div>
-            <div class="disflex justify-content-center mediablock">
-                <div class="firstTemplate">
-                    <div class="padding-bottom100">
-                        <h2 class="font-weight-400 color-0078aa font-size-30 font75">1-800-600-380</h2>
-                    </div>
-                    <div class="margin-20-15 padding-bottom100">
-                        <h2 class="font-weight-600 font-size-16 color-363636 font60">EMERGENCY SERVICE</h2>
-                    </div>
-                    <div class="margin-5-50 padding-bottom100">
-                        <p class="font-weight-400 font-size-14 color-363636 font45">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
-                    </div>
-                    <div>
-                        <button class="button1 tempbutton">See More</button>
-                    </div>
-                </div>
-                <div class="secondTemplate">
-                    <div>
-                        <i class='far fa-calendar' id="calendar"></i>
-                    </div>
-                    <div class="margin-20-15 padding-bottom100">
-                        <h2 class="font-weight-600 font-size-16 color-363636 font60">DO YOU WANT TO MAKE AN APPOINTMENT</h2>
-                    </div>
-                    <div class="margin-5-50 padding-bottom100">
-                        <p class="font-weight-400 font-size-14 color-363636 font45">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis in. Quisque dapibus aliquet dictum.</p>
-                    </div>
-                    <div>
-                        <button class="button1 tempbutton">Book Now</button>
+        </div>
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-lg-4 p-0">
+                    <div class="firstTemplate">
+                        <div class="pb-3 px-3">
+                            <h2 class="font-weight-400 color-0078aa font-size-30">1-800-600-380</h2>
+                        </div>
+                        <div class="pb-3 px-3">
+                            <h2 class="font-weight-600 font-size-16 color-363636">EMERGENCY SERVICE</h2>
+                        </div>
+                        <div class="pb-3 px-3">
+                            <p class="font-weight-400 font-size-14 color-363636">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+                        </div>
+                        <div class="px-3">
+                            <button class="button1">See More</button>
+                        </div>
                     </div>
                 </div>
-                <div class="firstTemplate">
-                    <div>
-                        <i class='far fa-clock' id="clock3"></i>
+                <div class="col-lg-4 p-0">
+                    <div class="secondTemplate py-5">
+                        <div class="py-3">
+                            <div class="pb-3 px-3">
+                                <i class='far fa-calendar' id="calendar"></i>
+                            </div>
+                            <div class="pb-3 px-3">
+                                <h2 class="font-weight-600 font-size-16 color-363636">DO YOU WANT TO MAKE AN APPOINTMENT</h2>
+                            </div>
+                            <div class="pb-3 px-3">
+                                <p class="font-weight-400 font-size-14 color-363636">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis in. Quisque dapibus aliquet dictum.</p>
+                            </div>
+                            <div class="px-3">
+                                <button class="button1">Book Now</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="margin-20-15 padding-bottom100">
-                        <h2 class="font-weight-600 font-size-16 color-363636 font60">OPENING HOURS</h2>
-                    </div>
-                    <div class="paddingBottom50">
-                        <h2 class="font-weight-400 font-size-14 color-363636 font45">Monday - Friday</h2>
-                    </div>
-                    <div class="margin-5-50 padding-bottom100">
-                        <h2 class="font-weight-400 font-size-14 color-363636 font45">Saturday - Sunday</h2>
-                    </div>
-                    <div>
-                        <button class="button1 tempbutton">Contact Us</button>
+                </div>
+                <div class="col-lg-4 p-0">
+                    <div class="firstTemplate">
+                        <div class="pb-3 px-3">
+                            <i class='far fa-clock' id="clock3"></i>
+                        </div>
+                        <div class="pb-3 px-3">
+                            <h2 class="font-weight-600 font-size-16 color-363636">OPENING HOURS</h2>
+                        </div>
+                        <div class="pb-3 px-3">
+                            <h2 class="font-weight-400 font-size-14 color-363636">Monday - Friday</h2>
+                        </div>
+                        <div class="pb-3 px-3">
+                            <h2 class="font-weight-400 font-size-14 color-363636">Saturday - Sunday</h2>
+                        </div>
+                        <div class="px-3">
+                            <button class="button1 tempbutton">Contact Us</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="disflex margin-100-150 mediablock">
-                <div class="margin-20">
-                    <img src="assets/layer.png" alt="Layer" class="width-585">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 p-5">
+                    <img src="assets/layer.png" alt="Layer" class="col-12">
                 </div>
-                <div class="width-500" id="animation1">
-                    <div class="margin-bottom-15">
-                        <strong class="font-weight-700 color-363636 font-size-36 font100">About</strong>
-                        <span class="color-363636 font-size-36 font100">Jevelin Clinic</span>
+                <div class="col-lg-6 p-5">
+                    <div class="mb-2">
+                        <strong class="font-weight-700 color-363636 font-size-36">About</strong>
+                        <span class="color-363636 font-size-36">Jevelin Clinic</span>
                     </div>
-                    <div class="margin-bottom-25 padding-bottom100">
-                        <span class="font-size-12 font-weight-400 color-0078aa font50">PROFESSIONAL CARE</span>
+                    <div class="margin-bottom-25 pb-3">
+                        <span class="font-size-12 font-weight-400 color-0078aa">PROFESSIONAL CARE</span>
                     </div>
                     <div>
-                        <p class="font-size-14 font-weight-400 color-363636 inputfont padding-bottom100">
+                        <p class="font-size-14 font-weight-400 color-363636 pb-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.
                         </p>
                     </div>
@@ -191,161 +180,183 @@
                     </div>
                 </div>
             </div>
-            <div class="bg2 height-700 width-1349 height-1500">
-                <div class="padding-top-100">
-                    <h2 class="font-size-36 font-weight-700 color-363636 text-center margin-bottom-25 font100">How we can help you</h2>
-                    <h2 class="font-size-12 font-weight-400 color-363636 text-center font50">READ MORE ABOUT OUR SERVICES</h2>
-                </div>
-                <div class="disflex margin50-1 padding-bottom50 bg-color-ffffff border-radius2 mediablock width-1200">
-                    <div class="margin25 department">
-                        <img src="assets/eye.jpg" alt="Ophthalmology" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Ophthalmology</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
-                    </div>
-                    <div class="margin25 department">
-                        <img src="assets/cardio.jpg" alt="Cardiology" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Cardiology</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
-                    </div>
-                    <div class="margin25 department">
-                        <img src="assets/dentist.jpg" alt="Dentistry" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Dentistry</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+        </div>
+        <div class="container-fluid">
+            <div class="bg2 py-5">
+                <div class="row">
+                    <div class="pt-5">
+                        <h2 class="font-size-36 font-weight-700 color-363636 text-center marginb-2">How we can help you</h2>
+                        <h2 class="font-size-12 font-weight-400 color-363636 text-center">READ MORE ABOUT OUR SERVICES</h2>
                     </div>
                 </div>
-                <div class="disflex margin50-2 bg-color-ffffff padding-bottom-50 border-radius2 mediablock width-1200">
-                    <div class="margin25 department">
-                        <img src="assets/lab.jpg" alt="Laboratory" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Laboratory</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                <div class="container-fluid border-0 rounded m-2">
+                    <div class="row bg-color-ffffff">
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/eye.jpg" alt="Ophthalmology" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Ophthalmology</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/cardio.jpg" alt="Cardiology" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Cardiology</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/dentist.jpg" alt="Dentistry" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Dentistry</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
                     </div>
-                    <div class="margin25 department">
-                        <img src="assets/pedia.jpg" alt="Pediatrics" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Pediatrics</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                    <div class="row bg-color-ffffff">
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/lab.jpg" alt="Laboratory" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Laboratory</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/pedia.jpg" alt="Pediatrics" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Pediatrics</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
+                        <div class="col-lg-4 p-5">
+                            <img src="assets/radio.jpg" alt="Radiology" class="mb-3">
+                            <h2 class="font-size-18 font-weight-600 color-363636 mb-3">Radiology</h2>
+                            <p class="font-size-14 font-weight-400 color-363636">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+                        </div>
                     </div>
-                    <div class="margin25 department">
-                        <img src="assets/radio.jpg" alt="Radiology" class="width500">
-                        <h2 class="font-size-18 font-weight-600 color-363636 margin-20-0 font75">Radiology</h2>
-                        <p class="font-size-14 font-weight-400 color-363636 font50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
-                    </div>
-                </div>
-            </div>
-            <div class="disflex mediablock mediapadding">
-                <div class="margin-left-200 width-1100" id="animation2">
-                    <div class="padding-top-50">
-                        <span class="font-weight-700 color-363636 font-size-36 font75">Jenna</span>
-                        <span class="color-363636 font-size-36 font75">Berg</span>
-                    </div>
-                    <div class="margin-15-50 padding-bottom100">
-                        <span class="font-size-12 font-weight-400 color-0078aa font50">PROFESSIONAL DENTIST</span>
-                    </div>
-                    <div>
-                        <p class="font-size-16 font-weight-400 color-363636 font60">
-                            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</strong>
-                        </p>
-                    </div>
-                    <div class="margin-10-75 padding-bottom100">
-                        <p class="font-size-14 font-weight-400 color-363636 font50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.
-                        </p>
-                    </div>
-                    <div>
-                        <button class="button2 bookbutton">
-                            View all Doctors
-                        </button>
-                    </div>
-                </div>
-                <div>
-                    <img src="assets/doctor.jpg" alt="Doctor" class="height-600 imageadjust">
                 </div>
             </div>
-            <div class="disflex justify-content-around margin100 flexwrap width-1100">
-                <div class="width500">
-                    <div class="font-size-50 color-505050 font-weight-700" id="value1"></div>
-                    <div class="border-bottom-1 margin-5"></div>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Certified</h2>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Doctors</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-lg-6">
+                    <div class="container ps-5 ms-5 col-lg-11 col-xl-10">
+                        <div class="py-2">
+                            <span class="font-weight-700 color-363636 font-size-36">Jenna</span>
+                            <span class="color-363636 font-size-36">Berg</span>
+                        </div>
+                        <div class="pb-5">
+                            <span class="font-size-12 font-weight-400 color-0078aa">PROFESSIONAL DENTIST</span>
+                        </div>
+                        <div>
+                            <p class="font-size-16 font-weight-400 color-363636">
+                                <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</strong>
+                            </p>
+                        </div>
+                        <div class="pb-5">
+                            <p class="font-size-14 font-weight-400 color-363636">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="button2 bookbutton">
+                                View all Doctors
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="width500">
-                    <h2 class="font-size-50 color-505050 font-weight-700" id="value2"></h2>
-                    <div class="border-bottom-1 margin-5"></div>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Medical</h2>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Services</h2>
-                </div>
-                <div class="width500">
-                    <h2 class="font-size-50 color-505050 font-weight-700" id="value3"></h2>
-                    <div class="border-bottom-1 margin-5"></div>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Different</h2>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Affiliates</h2>
-                </div>
-                <div class="width500">
-                    <h2 class="font-size-50 color-505050 font-weight-700" id="value4"></h2>
-                    <div class="border-bottom-1 margin-5"></div>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Offered</h2>
-                    <h2 class="font-size-16 color-505050 font-weight-400 font50">Programs</h2>
+                <div class="col-lg-6">
+                    <img src="assets/doctor.jpg" alt="Doctor" class="col-12">
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <div class="font-size-50 color-505050 font-weight-700">53</div>
+                    <div class="border-bottom-1 margin-5"></div>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Certified</h2>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Doctors</h2>
+                </div>
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="font-size-50 color-505050 font-weight-700">48</h2>
+                    <div class="border-bottom-1 margin-5"></div>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Medical</h2>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Services</h2>
+                </div>
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="font-size-50 color-505050 font-weight-700">12</h2>
+                    <div class="border-bottom-1 margin-5"></div>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Different</h2>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Affiliates</h2>
+                </div>
+                <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="font-size-50 color-505050 font-weight-700">96</h2>
+                    <div class="border-bottom-1 margin-5"></div>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Offered</h2>
+                    <h2 class="font-size-16 color-505050 font-weight-400">Programs</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
             <div class="backg2">
-                <div class="margin100">
-                    <h2 class="text-center font-size-36 font-weight-700 color-363636 font100">Our Special Offers</h2>
-                    <h2 class="text-center font-size-12 font-weight-400 color-363636 font50 mediapadding50">START TO BE HEALTHY TODAY</h2>
+                <div class="m-5">
+                    <h2 class="text-center font-size-36 font-weight-700 color-363636">Our Special Offers</h2>
+                    <h2 class="text-center font-size-12 font-weight-400 color-363636">START TO BE HEALTHY TODAY</h2>
                 </div>
-                <div class="disflex justify-content-center mediablock">
-                    <div class="text-center width-500 template1 padding-50">
-                        <h2 class="font-size-24 font-weight-700 color-3a3a3a font75 padding-bottom100">Allergy Check</h2>
-                        <div class="padding-bottom100">
-                            <span class="font-size-30 font-weight-400 color-3a3a3a font60">$</span>
-                            <span class="font-size-60 font-weight-700 color-3a3a3a font100">255</span>
+                <div class="row p-5">
+                    <div class="col-lg-4">
+                        <div class="text-center template1 p-5">
+                            <h2 class="font-size-24 font-weight-700 color-3a3a3a pb-1">Allergy Check</h2>
+                            <div class="padding-bottom100">
+                                <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
+                                <span class="font-size-60 font-weight-700 color-3a3a3a">255</span>
+                            </div>
+                            <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 padding-bottom100">10 treatments</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Allergy Test</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Consultation</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Treatments</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">10 Procedures</h4>
+                            <i class='fas fa-times' id="cross1"></i>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Test Results</h4>
+                            <button class="button1 bookbutton margin-bottom100">Get Now</button>
                         </div>
-                        <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 font45 padding-bottom100">10 treatments</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Allergy Test</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Consultation</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Treatments</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">10 Procedures</h4>
-                        <i class='fas fa-times' id="cross1"></i>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Test Results</h4>
-                        <button class="button1 bookbutton margin-bottom100">Get Now</button>
                     </div>
-                    <div class="text-center width-500 template2 padding-50">
-                        <h2 class="font-size-24 font-weight-700 color-3a3a3a font75 padding-bottom100">Eye Checkup</h2>
-                        <div class="padding-bottom100">
-                            <span class="font-size-30 font-weight-400 color-3a3a3a font60">$</span>
-                            <span class="font-size-60 font-weight-700 color-3a3a3a font100">108</span>
+                    <div class="col-lg-4">
+                        <div class="text-center template2 p-5">
+                            <h2 class="font-size-24 font-weight-700 color-3a3a3a pb-1">Eye Checkup</h2>
+                            <div class="padding-bottom100">
+                                <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
+                                <span class="font-size-60 font-weight-700 color-3a3a3a">108</span>
+                            </div>
+                            <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 padding-bottom100">3 treatments</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Refraction</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Retinal Examination</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">External Examination</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">9 Procedures</h4>
+                            <i class='fas fa-times' id="cross2"></i>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Full Closure</h4>
+                            <button class="button3 bookbutton margin-bottom100">Get Now</button>
                         </div>
-                        <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 font45 padding-bottom100">3 treatments</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Refraction</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Retinal Examination</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">External Examination</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">9 Procedures</h4>
-                        <i class='fas fa-times' id="cross2"></i>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Full Closure</h4>
-                        <button class="button3 bookbutton margin-bottom100">Get Now</button>
                     </div>
-                    <div class="text-center width-500 template1 padding-50">
-                        <h2 class="font-size-24 font-weight-700 color-3a3a3a font75 padding-bottom100">Dental Care</h2>
-                        <div class="padding-bottom100">
-                            <span class="font-size-30 font-weight-400 color-3a3a3a font60">$</span>
-                            <span class="font-size-60 font-weight-700 color-3a3a3a font100">320</span>
+                    <div class="col-lg-4">
+                        <div class="text-center template1 p-5">
+                            <h2 class="font-size-24 font-weight-700 color-3a3a3a pb-1">Dental Care</h2>
+                            <div class="padding-bottom100">
+                                <span class="font-size-30 font-weight-400 color-3a3a3a">$</span>
+                                <span class="font-size-60 font-weight-700 color-3a3a3a">320</span>
+                            </div>
+                            <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 padding-bottom100">6 treatments</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Gum Care</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Consultation</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Treatments</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">6 Procedures</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Oral Hygiene</h4>
+                            <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 padding-bottom100">Full closure</h4>
+                            <button class="button1 bookbutton margin-bottom100">Get Now</button>
                         </div>
-                        <h4 class="font-size-14 font-weight-400 font-style-italic color-3a3a3a margin-bottom-50 font45 padding-bottom100">6 treatments</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Gum Care</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Consultation</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Treatments</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">6 Procedures</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Oral Hygiene</h4>
-                        <h4 class="font-size-14 font-weight-400 color-3a3a3a margin-bottom-25 font45 padding-bottom100">Full closure</h4>
-                        <button class="button1 bookbutton margin-bottom100">Get Now</button>
                     </div>
                 </div>
             </div>
-            <div class="disflex padding75 margin-top-100 mediablock">
-                <div class="width-1100 mediapadding">
-                    <div class="font-size-36 font-weight-400 width-700 font75">Frequently Asked</div>
-                    <div class="font-size-36 font-weight-700 font75">Questions</div>
-                    <button class="button2 margin-20-15 bookbutton">View All</button>
+        </div>
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-lg-6 px-5">
+                    <div class="font-size-36 font-weight-400">Frequently Asked</div>
+                    <div class="font-size-36 font-weight-700">Questions</div>
+                    <button class="button2 mt-5">View All</button>
                 </div>
-                <div class="width-1100 inputfont">
+                <div class="col-lg-6">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -398,13 +409,14 @@
                     </div>
                 </div>
             </div>
-            <!-- 
-            <div id="map">
-            </div>
-            -->
-            <div class="disflex justify-content-around margin-100-150 mediablock">
-                <div class="d-flex mediapadding50 width-1100">
-                    <div class="margin20">
+        </div>
+        <div class="container-fluid">
+            <img src="assets/map.webp" alt="Map" class="w-100 h-25">
+        </div>
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-xl-3 d-flex">
+                    <div class="me-5 my-2">
                         <i class="material-icons" id="location">location_on</i>
                     </div>
                     <div class="margin-50">
@@ -412,8 +424,8 @@
                         <h2 class="font-size-14 font-weight-400 margin-top-10 font45 color-50">Street number 5, Town, Country</h2>
                     </div>
                 </div>
-                <div class="d-flex mediapadding50 width-1100">
-                    <div class="margin20">
+                <div class="col-xl-3 d-flex">
+                    <div class="me-5 my-2">
                         <i class='fas fa-clock' id="clock2"></i>
                     </div>
                     <div class="margin-50">
@@ -421,8 +433,8 @@
                         <h2 class="font-size-14 font-weight-400 margin-top-10 font45 color-50">Mon. - Frie. 11AM - 19PM</h2>
                     </div>
                 </div>
-                <div class="d-flex mediapadding50 width-1100">
-                    <div class="margin20">
+                <div class="col-xl-3 d-flex">
+                    <div class="me-5 my-2">
                         <i class="material-icons" id="mail2">mail_outline</i>
                     </div>
                     <div class="margin-50">
@@ -430,8 +442,8 @@
                         <h2 class="font-size-14 font-weight-400 margin-top-10 font45 color-50">brandname@company.com</h2>
                     </div>
                 </div>
-                <div class="d-flex mediapadding50 width-1100">
-                    <div class="margin20">
+                <div class="col-xl-3 d-flex">
+                    <div class="me-5 my-2">
                         <i class='fas fa-phone-alt' id="phone2"></i>
                     </div>
                     <div class="margin-50">
@@ -440,26 +452,28 @@
                     </div>
                 </div>
             </div>
-            <div class="disflex margin-10-20-10-50 mediablock">
-                <div class="bg3 width340 padding-400-200 margin-right-15">
-                    <div class="d-flex">
-                        <div class="d-flex justify-content-center align-items-center padding-10-0">
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 bg3">
+                    <div class="d-flex pt-5">
+                        <div class="d-flex justify-content-center align-items-center pt-5">
                             <i class='fas fa-quote-right' id="quote1"></i>
                         </div>
-                        <div class="padding-10-0">
-                            <img src="assets/john.png" alt="John" class="image margin-bottom-50">
+                        <div class="pt-5">
+                            <img src="assets/john.png" alt="John" class="image">
                             <h2 class="font-size-18 font-weight-600 color-ffffff font50">Jhon Doe</h2>
                             <h4 class="font-size-16 font-weight-700 color-ffffff inputfont margin-bottom100">Geology teacher</h4>
                             <p class="font-size-14 font-weight-400 color-ffffff inputfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien leo, iaculis rutrum lacus sed, fermentum tempor odio. </p>
                         </div>
                     </div>
                 </div>
-                <div class="bg3 width340 padding-400-200 dis-no">
-                    <div class="d-flex">
-                        <div class="d-flex justify-content-center align-items-center padding-10-0">
+                <div class="col-lg-3 bg3 d-xl-block d-none">
+                    <div class="d-flex pt-5">
+                        <div class="d-flex justify-content-center align-items-center pt-5">
                             <i class='fas fa-quote-right' id="quote2"></i>
                         </div>
-                        <div class="padding-10-0">
+                        <div class="pt-5">
                             <img src="assets/kate.png" alt="Kate" class="image">
                             <h2 class="font-size-18 font-weight-600 color-ffffff">Kate Blossom</h2>
                             <h4 class="font-size-16 font-weight-700 color-ffffff">Gardener</h4>
@@ -467,52 +481,56 @@
                         </div>
                     </div>
                 </div>
-                <div class="margin-left-100 width-1100 padding-100 inputfont padd-200-200">
-                    <h2 class="font-size-48 font-weight-700 line-height-48 color-363636 font75">Make An Appointment</h2>
-                    <h4 class="font-size-12 font-weight-400 color-0078aa margin-top-10 padding-100 font50">AND WE WILL CONTACT YOU</h4>
-                    <input type="text" placeholder="Full Name" class="padding-100"><br>
-                    <input type="email" placeholder="Email" class="padding-100"><br>
-                    <input type="number" placeholder="Phone" class="padding-100"><br>
-                    <input type="date" placeholder="Full Name" class="padding-100 font60 color-505050"><br>
-                    <select name="subject" id="subjects" class="margin-20-15 padding-100 font60 color-505050">
-                        <option value="Subject">Subject</option>
-                        <option value="Ophthalmology">Ophthalmology</option>
-                        <option value="Cardiology">Cardiology</option>
-                        <option value="Dentistry">Dentistry</option>
-                        <option value="Laboratory">Laboratory</option>
-                        <option value="Pediatrics">Pediatrics</option>
-                        <option value="Radiology">Radiology</option>
-                    </select><br>
-                    <button class="button2 margin-60-10 bookbutton margin-top50">Book Now</button>
+                <div class="col-lg-6">
+                    <div class="container p-5">
+                        <h2 class="font-size-48 font-weight-700 line-height-48 color-363636">Make An Appointment</h2>
+                        <h4 class="font-size-12 font-weight-400 color-0078aa pt-2">AND WE WILL CONTACT YOU</h4>
+                        <input type="text" placeholder="Full Name" class="p-3"><br>
+                        <input type="email" placeholder="Email" class="p-3"><br>
+                        <input type="number" placeholder="Phone" class="p-3"><br>
+                        <input type="date" placeholder="Full Name" class="p-3 color-505050"><br>
+                        <select name="subject" id="subjects" class="p-3 color-505050">
+                            <option value="Subject">Subject</option>
+                            <option value="Ophthalmology">Ophthalmology</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Dentistry">Dentistry</option>
+                            <option value="Laboratory">Laboratory</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Radiology">Radiology</option>
+                        </select><br>
+                        <button class="button2 margin-60-10 bookbutton margin-top50">Book Now</button>
+                    </div>
                 </div>
             </div>
-            <div class="disflex justify-content-between footerDiv mediablock footer1 padding-75">
-                <div class="width250 footerfont textleft width-auto width-900">
-                    <h3 class="color-ffffff font-size-21 font-weight-700 margin-bottom-15 font75 padding-top100">Important Information</h3>
-                    <p class="color-bbbbbb padding-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
+        </div>
+        <div class="container-fluid">
+            <div class="row bg-color-1c1c1c p-5">
+                <div class="col-lg-4 p-5">
+                    <h3 class="color-ffffff font-size-21 font-weight-700 pb-3">Important Information</h3>
+                    <p class="color-bbbbbb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
                 </div>
-                <div class="width250 width-1100 width-900">
-                    <h3 class="color-ffffff font-size-21 font-weight-700 margin-bottom-15 font75 margin-bottom50">Latest News</h3>
-                    <div class="d-flex border-bottom-2">
-                        <div>
-                            <img src="assets/stairs.jpg" alt="Stairs" class="footerImage image-width margin-bottom50">
+                <div class="col-lg-4 p-5">
+                    <h3 class="color-ffffff font-size-21 font-weight-700 pb-3">Latest News</h3>
+                    <div class="d-flex border-bottom-2 pb-3">
+                        <div class="pe-2">
+                            <img src="assets/stairs.jpg" alt="Stairs" class="footerImage">
                         </div>
                         <div class="padding-0-5-5-5 margin-bottom50">
-                            <h3 class="color-ffffff font-size-13 font-weight-400 bluehover font50">NEWS</h3>
-                            <h3 class="color-ffffff font-size-16 font-weight-700 bluehover footerfont">Welcome to our new building</h3>
+                            <h3 class="color-ffffff font-size-13 font-weight-400 bluehover">NEWS</h3>
+                            <h3 class="color-ffffff font-size-16 font-weight-700 bluehover">Welcome to our new building</h3>
                         </div>
                     </div>
-                    <div class="d-flex margin-top-10 marginBottom100">
-                        <div>
-                            <img src="assets/food.jpg" alt="Food" class="footerImage image-width margin-top-50">
+                    <div class="d-flex pt-3">
+                        <div class="pe-2">
+                            <img src="assets/food.jpg" alt="Food" class="footerImage">
                         </div>
                         <div class="padding-0-5-5-5 margin-top-50">
-                            <h3 class="color-ffffff font-size-13 font-weight-400 bluehover font50">DIET</h3>
-                            <h3 class="color-ffffff font-size-16 font-weight-700 bluehover footerfont">Healthier diet for better future</h3>
+                            <h3 class="color-ffffff font-size-13 font-weight-400 bluehover">DIET</h3>
+                            <h3 class="color-ffffff font-size-16 font-weight-700 bluehover">Healthier diet for better future</h3>
                         </div>
                     </div>
                 </div>
-                <div class="width250 mediapadding width-auto width-900">
+                <div class="col-lg-4 p-5">
                     <div class="padding-bottom-10">
                         <i class='far fa-map' id="map2"></i>
                         <span class="color-bbbbbb footerfont">Street number 5, Town, Country</span>
@@ -531,9 +549,9 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center bg-color-363636 padding33 footer1 padding-150">
-                <h2 class="color-f4f4f4 font-weight-400 font-size-14 footerfont">Copyright © 2017 JevelinTheme - Theme by Shufflehound</h2>
-            </div>
+        </div>
+        <div class="d-flex justify-content-center bg-color-363636 p-4">
+            <h2 class="color-f4f4f4 font-weight-400 font-size-14">Copyright © 2017 JevelinTheme - Theme by Shufflehound</h2>
         </div>
     </body>
 </html>

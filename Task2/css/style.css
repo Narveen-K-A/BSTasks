@@ -14,8 +14,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 120px;
-    width: 1349px;
-    height: 1020px;
 }
 .disflex{
     display: flex;
@@ -79,6 +77,9 @@ body{
 }
 .bg-color-ffffff{
     background-color: #ffffff;
+}
+.bg-color-1c1c1c{
+    background-color: #1c1c1c;
 }
 .color-b9f7f9{
     color: #b9f7f9;
@@ -189,10 +190,6 @@ body{
 .padding33{
     padding: 33px 50px 33px 5px;
 }
-.footerDiv{
-    background-color: #1c1c1c;
-    padding: 75px 150px 75px 150px;
-}
 .color-bbbbbb{
     color: #bbbbbb;
 }
@@ -207,9 +204,9 @@ body{
     margin-right: 10px;  
 }
 .footerImage{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
 }
 .width300{
     width: 350px;
@@ -228,13 +225,11 @@ body{
 .firstTemplate{
     background-color: #b9f7f9;
     border-radius: 10px;
-    width: 400px;
     padding: 50px 30px 40px 30px;
 }
 .secondTemplate{
     background-color: #d4fdfe;
     border-radius: 10px;
-    width: 400px;
     padding: 50px 30px 40px 30px;
     margin: -20px 0px -20px 0px;
 }
