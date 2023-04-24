@@ -284,11 +284,23 @@
 }
 .font4{
     line-height: 58px;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffffff;
     font-size: 48px;
 }
 #check1{
     font-size: 30px;
     color: #f3ba40;
+}
+@media screen and (max-width: 768px) and (min-width: 200px){
+    .media-font{
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 767px){
+    .media-font{
+        font-size: 30px;
+        line-height: 50px;
+    }
 }
