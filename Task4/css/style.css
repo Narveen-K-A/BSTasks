@@ -4,9 +4,36 @@
 }
 .bg1{
     background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .bg2{
     background-image: url('../assets/background2.jpg');
+}
+.bg01{
+    background-image: url('../assets/walllet.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg02{
+    background-image: url('../assets/arrow.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg03{
+    background-image: url('../assets/nosign.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg04{
+    background-image: url('../assets/globe.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bg05{
+    background-image: url('../assets/check.png');
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 .font-weight-400{
     font-weight: 400;
@@ -79,6 +106,13 @@
 }
 .line-height-1{
     line-height: 1.8;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.div-hover:hover{
+    padding-left: 10px;
+    transition: 0.3s;
 }
 .button1{
     color: #353535;
@@ -292,13 +326,24 @@
     font-size: 30px;
     color: #f3ba40;
 }
+#clock1{
+    font-size: 30px;
+    color: #707070;
+}
+.card-1{
+    position: relative;
+    z-index: 2;
+}
+.header:hover{
+    color: #f5f5f5;
+}
 @media screen and (max-width: 768px) and (min-width: 200px){
     .media-font{
         font-size: 25px;
         line-height: 45px;
     }
 }
-@media screen and (max-width: 1024px) and (min-width: 767px){
+@media screen and (max-width: 1024px) and (min-width: 769px){
     .media-font{
         font-size: 30px;
         line-height: 50px;
