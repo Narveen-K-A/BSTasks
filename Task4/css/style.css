@@ -86,6 +86,9 @@
 .bg-color-1c1c1c{
     background-color: #1c1c1c;
 }
+.bg-color-2ce3ad{
+    background-color: #2ce3ad;
+}
 .color-8d8d8d{
     color: #8d8d8d;
 }
@@ -341,6 +344,24 @@
     .media-font{
         font-size: 25px;
         line-height: 45px;
+    }
+    .videoimg{
+        width: 100%;
+    }
+    .padding-media1{
+        padding: 0px!important;
+    }
+    .padding-left-5{
+        padding-left: 10px!important;
+    }
+    .mediafont{
+        font-size: 30px!important;
+    }
+    .padding-media2{
+        padding-top: 50px;
+    }
+    .dis-none{
+        display: none;
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px){
